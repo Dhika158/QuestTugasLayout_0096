@@ -136,3 +136,10 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             backgroundColor = colorResource(R.color.card_gray)
         )
 
+        Spacer(modifier = Modifier.weight(1f))
+        Text(
+            text = stringResource(R.string.copyright),
+            modifier = Modifier.padding(bottom = dimensionResource(R.dimen.padding_bottom_copyright))
+        )
+    }
+}
