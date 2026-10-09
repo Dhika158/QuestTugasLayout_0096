@@ -67,3 +67,10 @@ fun MahasiswaCard(
                     fontSize = dimensionResource(R.dimen.font_size_title).value.sp,
                     fontWeight = FontWeight.Bold,
                     color = colorResource(R.color.white)
+                )
+                if (telepon != null) {
+                    Text(
+                        text = telepon,
+                        fontSize = dimensionResource(R.dimen.font_size_subtitle).value.sp,
+                        color = colorResource(R.color.white)
+                    )
