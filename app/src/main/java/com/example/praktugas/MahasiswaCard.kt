@@ -92,3 +92,11 @@ fun MahasiswaCard(
         }
     }
 }
+
+@Composable
+fun ActivitasPertama(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier
+            .padding(top = dimensionResource(R.dimen.padding_top_main))
+            .fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
