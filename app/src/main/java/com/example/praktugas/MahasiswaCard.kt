@@ -80,3 +80,15 @@ fun MahasiswaCard(
                     fontSize = dimensionResource(R.dimen.font_size_subtitle).value.sp,
                     color = colorResource(R.color.yellow)
                 )
+            }
+            Spacer(modifier = Modifier.width(dimensionResource(R.dimen.spacing_medium)))
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(dimensionResource(R.dimen.logo_size))
+                    .padding(dimensionResource(R.dimen.logo_padding))
+            )
+        }
+    }
+}
