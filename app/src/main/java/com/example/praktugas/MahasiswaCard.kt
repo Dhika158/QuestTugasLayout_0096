@@ -112,3 +112,8 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.height(dimensionResource(R.dimen.spacing_large)))
 
+        MahasiswaCard(
+            nama = stringResource(R.string.nama_1),
+            alamat = stringResource(R.string.alamat_1),
+            backgroundColor = colorResource(R.color.card_purple)
+        )
