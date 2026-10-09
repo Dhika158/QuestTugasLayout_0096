@@ -74,3 +74,9 @@ fun MahasiswaCard(
                         fontSize = dimensionResource(R.dimen.font_size_subtitle).value.sp,
                         color = colorResource(R.color.white)
                     )
+                }
+                Text(
+                    text = alamat,
+                    fontSize = dimensionResource(R.dimen.font_size_subtitle).value.sp,
+                    color = colorResource(R.color.yellow)
+                )
