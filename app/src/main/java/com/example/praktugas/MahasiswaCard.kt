@@ -50,3 +50,10 @@ fun MahasiswaCard(
                 .fillMaxWidth()
                 .padding(dimensionResource(R.dimen.card_inner_padding)),
             verticalAlignment = Alignment.CenterVertically
+        ) {
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(dimensionResource(R.dimen.logo_size))
+                    .padding(dimensionResource(R.dimen.logo_padding))
