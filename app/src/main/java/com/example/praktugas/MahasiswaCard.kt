@@ -106,3 +106,9 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             fontSize = dimensionResource(R.dimen.font_size_main_title).value.sp,
             fontWeight = FontWeight.Bold
         )
+        Text(
+            text = stringResource(R.string.subtitle),
+            fontSize = dimensionResource(R.dimen.font_size_title).value.sp
+        )
+        Spacer(modifier = Modifier.height(dimensionResource(R.dimen.spacing_large)))
+
