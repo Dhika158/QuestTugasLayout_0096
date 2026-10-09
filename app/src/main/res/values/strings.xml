@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">praktugas</string>
+
+    <string name="title">Teknologi Informasi</string>
+    <string name="subtitle">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="copyright">Copyright, 2026</string>
+
+    <string name="nama_1">Dwi Nurcahyo</string>
+    <string name="alamat_1">Bandung Barat</string>
+
+    <string name="nama_2">Andhika Nurjamil</string>
+    <string name="telepon_2">081214941520</string>
+    <string name="alamat_2">Bandung, Jawa Barat</string>
+
+    <string name="nama_3">Wiji Dwi Wicaksono</string>
+    <string name="telepon_3">085215061031</string>
+    <string name="alamat_3">Banyumas</string>
+
+    <string name="nama_4">Ijlal Abid Musyafah</string>
+    <string name="telepon_4">081122334455</string>
+    <string name="alamat_4">Balongan</string>
 </resources>
