@@ -100,3 +100,9 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             .padding(top = dimensionResource(R.dimen.padding_top_main))
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            text = stringResource(R.string.title),
+            fontSize = dimensionResource(R.dimen.font_size_main_title).value.sp,
+            fontWeight = FontWeight.Bold
+        )
