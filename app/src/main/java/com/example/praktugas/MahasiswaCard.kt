@@ -25,3 +25,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
+@Composable
+fun MahasiswaCard(
+    nama: String,
+    alamat: String,
+    telepon: String? = null,
+    backgroundColor: Color,
+    modifier: Modifier = Modifier
