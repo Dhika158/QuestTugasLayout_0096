@@ -52,7 +52,7 @@ fun MahasiswaCard(
             verticalAlignment = Alignment.CenterVertically
         ) {
             Image(
-                painter = painterResource(R.drawable.logo_umy),
+                painter = painterResource(R.drawable.umy),
                 contentDescription = null,
                 modifier = Modifier
                     .size(dimensionResource(R.dimen.logo_size))
@@ -83,7 +83,7 @@ fun MahasiswaCard(
             }
             Spacer(modifier = Modifier.width(dimensionResource(R.dimen.spacing_medium)))
             Image(
-                painter = painterResource(R.drawable.logo_umy),
+                painter = painterResource(R.drawable.umy),
                 contentDescription = null,
                 modifier = Modifier
                     .size(dimensionResource(R.dimen.logo_size))
