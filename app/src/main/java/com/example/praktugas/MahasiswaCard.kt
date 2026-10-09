@@ -117,3 +117,9 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             alamat = stringResource(R.string.alamat_1),
             backgroundColor = colorResource(R.color.card_purple)
         )
+        MahasiswaCard(
+            nama = stringResource(R.string.nama_2),
+            telepon = stringResource(R.string.telepon_2),
+            alamat = stringResource(R.string.alamat_2),
+            backgroundColor = colorResource(R.color.card_blue)
+        )
