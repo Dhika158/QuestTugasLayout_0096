@@ -57,3 +57,13 @@ fun MahasiswaCard(
                 modifier = Modifier
                     .size(dimensionResource(R.dimen.logo_size))
                     .padding(dimensionResource(R.dimen.logo_padding))
+            )
+            Spacer(modifier = Modifier.width(dimensionResource(R.dimen.spacing_medium)))
+            Column(
+                modifier = Modifier.weight(1f)
+            ) {
+                Text(
+                    text = nama,
+                    fontSize = dimensionResource(R.dimen.font_size_title).value.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = colorResource(R.color.white)
